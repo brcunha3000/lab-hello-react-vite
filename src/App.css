@@ -1,0 +1,62 @@
+* {
+  font-family: "arial", sans-serif;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  height: auto;
+}
+
+.first-part-content {
+  background-color: #1e2434;
+  color: white;
+  padding: 3rem;
+}
+
+.content {
+  margin-top: 5rem;
+}
+
+.content-title {
+  font-size: 30px;
+  max-width: 30vw;
+}
+
+.content-text {
+  max-width: 30vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-button {
+  margin-top: 5rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.second-part-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 3rem;
+  max-width: 150px;
+  height: auto;
+}
